@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-python-app
-        image: maheshwaran26/php-random-image:v3
+        image: aksdevopshub/python-app:tag 
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
