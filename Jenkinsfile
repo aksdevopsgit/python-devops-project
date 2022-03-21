@@ -8,7 +8,7 @@ pipeline{
         }
         stage('Test') {
             steps{
-                echo 'This is a test step'  
+                echo 'This is a test steps'  
             }
         }
         stage('Deploy') {
